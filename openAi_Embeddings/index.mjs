@@ -6,10 +6,9 @@ const openai = new OpenAI(process.env.OPENAI_API_KEY);
 async function main() {
   const embedding = await openai.embeddings.create({
     model: "text-embedding-ada-002",
-    input: "Hello, world!",
+    input: "Dog!",
   });
-  // This will log the embedding.data[0].embedding property. data[0] is used because the API returns an array of embeddings.
-  //console.log(embedding); This will log the entire response object.
-  console.log(embedding.data[0].embedding); // This will log the embedding property of the response object.
+  console.log(embedding); //Response object
+  console.log("Embedding property:", embedding.data[0].embedding); // Embedding property
 }
 main();
