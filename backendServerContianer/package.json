@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "name": "backendservercontianer",
+  "version": "1.0.0",
+  "description": "express and mongoose docker container. This is a server for embedding with ollama with endpoints to frontend and connection to mongodb atlas database",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonhels/Word-Embeddings-AI-Jonhels-Project.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "ollama",
+    "llama",
+    "RAG",
+    "Retrieval",
+    "augmented",
+    "generation",
+    "javascript",
+    "server",
+    "docker",
+    "jonhels"
+  ],
+  "author": "Jon Helge Skjærstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonhels/Word-Embeddings-AI-Jonhels-Project/issues"
+  },
+  "homepage": "https://github.com/Jonhels/Word-Embeddings-AI-Jonhels-Project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.0"
+  }
+}
